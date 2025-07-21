@@ -48,3 +48,7 @@ DELETE FROM acciones_pedagogicas
 WHERE id_accion = 7
   AND estado = 'sin realizar';
 
+/* 8. DELETE: elimina una acción que quedó pendiente y no se realizó */
+DELETE FROM acciones_pedagogicas
+WHERE id_accion = 7          -- identifica la acción concreta
+  AND estado = 'sin realizar';
