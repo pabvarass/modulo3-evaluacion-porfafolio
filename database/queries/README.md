@@ -1,13 +1,11 @@
-
 # Consultas de demostración
 
-`demo_queries.sql` muestra ejemplos de:
+`demo_queries.sql` incluye ejemplos de:
 
-- JOIN entre **cursos** y **funcionarios**
-- Subconsulta para “cursos sin alumnos”
-- UPDATE/DELETE controlados
+- `SELECT` con **JOIN** entre _cursos_ y _funcionarios_.  
+- Subconsulta para “cursos sin alumnos”.  
+- Operaciones `UPDATE` y `DELETE` controladas (DML).
 
 ```bash
-
+# Ejecutar todas las consultas de ejemplo
 mysql -u root -p epja_control < database/queries/demo_queries.sql
-```
