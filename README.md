@@ -20,8 +20,8 @@ Este repositorio centraliza **la solución completa** al proyecto de base de dat
     * `queries/demo_queries.sql`: Consultas de ejemplo.
     * `transactions/demo_transactions.sql`: Ejemplo de transacción ACID.
 * **`diagrams/`**
-    * diagrama_inicial_db.png: Diagrama Entidad-Relación en formato png.
-    * epja_control_db.png: Diagrama inicial en formato png,
+    * `diagrama_inicial_db.png`: Diagrama Entidad-Relación en formato png.
+    * `epja_control_db.png`: Diagrama inicial en formato png,
 * **`docs/`**
     * `README_DB.md`: Detalles técnicos de la base de datos.
 
