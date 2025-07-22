@@ -3,28 +3,31 @@
 Este repositorio centraliza **la solución completa** al proyecto de base de datos relacional y consultas SQL para el Módulo 3.
 
 **Incluye:**
-* Esquema relacional en MySQL (DDL + datos de muestra).
-* Consultas `SELECT`, agregaciones y subconsultas.
-* Transacciones ACID de ejemplo.
-* Diagrama ER en Mermaid.
+* Esquema relacional en MySQL (DDL + datos de muestra).  
+* Consultas `SELECT`, agregaciones y subconsultas.  
+* Transacciones ACID de ejemplo.  
+* Diagramas ER (conceptual y físico) en formato PNG.  
 * Documentación paso a paso.
 
-> Es recomendable redactar el README antes de escribir código para alinear objetivos y funcionalidades.
-
 ***
 
-## Estructura de Archivos
+---
 
-* **`database/`**
-    * `schema/epja_control.sql`: Definición de tablas (DDL) y datos de muestra.
-    * `queries/demo_queries.sql`: Consultas de ejemplo.
-    * `transactions/demo_transaction.sql`: Ejemplo de transacción ACID.
-* **`diagrams/`**
-    * `er_diagram.md`: Diagrama Entidad-Relación en formato Mermaid.
-* **`docs/`**
-    * `README_DB.md`: Detalles técnicos de la base de datos.
+## Estructura de archivos
 
-***
+```text
+database/
+ ├─ schema/epja_control.sql          # DDL + datos de ejemplo
+ ├─ queries/demo_queries.sql         # SELECT, UPDATE, DELETE
+ └─ transactions/demo_transactions.sql   # Transacción ACID
+diagrams/
+ ├─ diagrama_inicial_db.png          # ER conceptual
+ └─ epja_control_db.png              # ER físico
+docs/
+ └─ README.md                     # Guía técnica detallada
+README.md                            # Este archivo
+
+---
 
 ## Instalación Rápida
 
