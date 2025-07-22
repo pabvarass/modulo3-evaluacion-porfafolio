@@ -8,10 +8,12 @@ Este directorio contiene el esquema SQL, los datos de prueba, las consultas de d
 |---------|-------------|
 | **schema/epja_control.sql** | Definición completa de tablas (DDL) e inserciones de ejemplo |
 | **queries/demo_queries.sql** | Consultas `SELECT`, combinaciones (`JOIN`) y agrupaciones (`GROUP BY`) |
-| **transactions/demo_transaction.sql** | Bloque `START TRANSACTION … COMMIT` de ejemplo |
-| **../diagrams/er_diagram.md** | Diagrama Inicial y Diagrama ER  (notación pata-de-cuervo) |
+| **transactions/demo_transactions.sql** | Bloque `START TRANSACTION … COMMIT` de ejemplo |
+| **../diagrams/diagrama_inicial_db.png** | Diagrama conceptual inicial (PNG) |
+| **../diagrams/epja_control_db.png**    | Diagrama físico/final del esquema (PNG) |
 
-GitHub renderiza los diagramas Mermaid sin complementos adicionales, lo que permite visualizar las relaciones entre tablas directamente en la web.
+Los dos PNG se encuentran en `diagrams/` y se pueden visualizar directamente desde la interfaz web de GitHub (clic en el archivo) sin requerir complementos adicionales.
+
 
 ## 2. Requisitos
 
