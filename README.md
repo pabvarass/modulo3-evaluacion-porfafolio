@@ -63,3 +63,9 @@ Este repositorio centraliza **la solución completa** al proyecto de base de dat
 * **Normalización**: El esquema sigue la Tercera Forma Normal (3NF) para minimizar la redundancia de datos.
 * **Control de Versiones**: El historial de Git sigue la especificación de *Conventional Commits* para mayor claridad.
 
+
+---
+
+###  Más información
+Para detalles técnicos y guía de instalación paso a paso, revisa **[docs/README.md](docs/README.md)**.
+
